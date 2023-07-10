@@ -4,14 +4,16 @@ import List from "./pages/list/List";
 import Single from "./pages/single/Single";
 import New from "./pages/new/New";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { productInputs, userInputs } from "./formSource";
+import { productInputs } from "./formSource";
+import LeadCreationForm from './LeadCreationForm';
+import CalendarComponent from './components/calendar/CalendarComponent'; // Import the CalendarComponent
 import "./style/dark.scss";
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
 
 function App() {
   const { darkMode } = useContext(DarkModeContext);
-
+  
   return (
     <div className={darkMode ? "app dark" : "app"}>
       <BrowserRouter>
@@ -22,10 +24,7 @@ function App() {
             <Route path="users">
               <Route index element={<List />} />
               <Route path=":userId" element={<Single />} />
-              <Route
-                path="new"
-                element={<New inputs={userInputs} title="Add New User" />}
-              />
+              <Route path="new" element={<LeadCreationForm />} />
             </Route>
             <Route path="products">
               <Route index element={<List />} />
@@ -35,6 +34,7 @@ function App() {
                 element={<New inputs={productInputs} title="Add New Product" />}
               />
             </Route>
+            <Route path="calendar" element={<CalendarComponent />} /> // Add the CalendarComponent route
           </Route>
         </Routes>
       </BrowserRouter>

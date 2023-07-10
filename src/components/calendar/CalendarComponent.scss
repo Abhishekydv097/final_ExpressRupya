@@ -1,0 +1,191 @@
+
+
+// // Colors
+// $primary-color: #007bff;
+// $secondary-color: #6c757d;
+// $background-color: #f8f9fa;
+// $text-color: #333;
+
+// // Fonts
+// $primary-font: 'Helvetica Neue', Arial, sans-serif;
+
+// .container {
+//   display: flex;
+//   height: 100vh;
+// }
+
+// .content {
+//   flex: 1;
+//   padding: 1rem;
+//   background-color: $background-color;
+// }
+
+// .calendar {
+//   .fc {
+//     .fc-header-toolbar {
+//       background-color: $primary-color;
+//       color: white;
+//       border: none;
+//     }
+
+//     .fc-toolbar-title {
+//       font-size: 1.2rem;
+//       font-weight: bold;
+//       text-transform: uppercase;
+//     }
+
+//     .fc-button {
+//       background-color: $primary-color;
+//       border-color: $primary-color;
+//       color: white;
+
+//       &:hover,
+//       &:focus {
+//         background-color: darken($primary-color, 10%);
+//         border-color: darken($primary-color, 10%);
+//       }
+//     }
+
+//     .fc-button-primary {
+//       background-color: $primary-color;
+//       border-color: $primary-color;
+
+//       &:hover,
+//       &:focus {
+//         background-color: darken($primary-color, 10%);
+//         border-color: darken($primary-color, 10%);
+//       }
+//     }
+
+//     .fc-button-secondary {
+//       background-color: $secondary-color;
+//       border-color: $secondary-color;
+
+//       &:hover,
+//       &:focus {
+//         background-color: darken($secondary-color, 10%);
+//         border-color: darken($secondary-color, 10%);
+//       }
+//     }
+
+//     .fc-button-group {
+//       button {
+//         border-radius: 0;
+//       }
+
+//       button:first-child {
+//         border-top-left-radius: 4px;
+//         border-bottom-left-radius: 4px;
+//       }
+
+//       button:last-child {
+//         border-top-right-radius: 4px;
+//         border-bottom-right-radius: 4px;
+//       }
+//     }
+
+//     .fc-daygrid-event {
+//       background-color: $primary-color;
+//       color: white;
+//       border-radius: 4px;
+
+//       .fc-event-title {
+//         font-size: 0.9rem;
+//         font-weight: bold;
+//       }
+//     }
+
+//     .fc-daygrid-day {
+//       .fc-daygrid-day-top {
+//         font-weight: bold;
+//         color: $text-color;
+//       }
+//     }
+//   }
+// }
+
+
+
+// .calendar {
+//   .fc {
+//     .fc-header-toolbar {
+//       background-color: #007bff;
+//       color: #fff;
+//       border: none;
+//     }
+
+//     .fc-toolbar-title {
+//       font-size: 1.2rem;
+//       font-weight: bold;
+//       text-transform: uppercase;
+//     }
+
+//     .fc-button {
+//       background-color: #007bff;
+//       border-color: #007bff;
+//       color: #fff;
+
+//       &:hover,
+//       &:focus {
+//         background-color: #0056b3;
+//         border-color: #0056b3;
+//       }
+//     }
+
+//     .fc-button-primary {
+//       background-color: #007bff;
+//       border-color: #007bff;
+
+//       &:hover,
+//       &:focus {
+//         background-color: #0056b3;
+//         border-color: #0056b3;
+//       }
+//     }
+
+//     .fc-button-secondary {
+//       background-color: #6c757d;
+//       border-color: #6c757d;
+
+//       &:hover,
+//       &:focus {
+//         background-color: #525a61;
+//         border-color: #525a61;
+//       }
+//     }
+
+//     .fc-button-group {
+//       button {
+//         border-radius: 0;
+//       }
+
+//       button:first-child {
+//         border-top-left-radius: 4px;
+//         border-bottom-left-radius: 4px;
+//       }
+
+//       button:last-child {
+//         border-top-right-radius: 4px;
+//         border-bottom-right-radius: 4px;
+//       }
+//     }
+
+//     .fc-daygrid-event {
+//       background-color: #007bff;
+//       color: #fff;
+//       border-radius: 4px;
+
+//       .fc-event-title {
+//         font-size: 0.9rem;
+//         font-weight: bold;
+//       }
+//     }
+
+//     .fc-daygrid-day {
+//       .fc-daygrid-day-top {
+//         font-weight: bold;
+//         color: #333;
+//       }
+//     }
+//   }
+// }

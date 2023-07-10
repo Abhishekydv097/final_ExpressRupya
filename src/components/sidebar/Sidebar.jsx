@@ -58,8 +58,10 @@ const Sidebar = () => {
           </li> */}
           <p className="title">USEFUL</p>
           <li>
-            <CalendarMonthIcon className="icon" />
-            <span>Calendar</span>
+          <Link to="/calendar" style={{ textDecoration: "none" }}>
+          <CalendarMonthIcon className="icon" />
+          <span>Calendar</span>
+          </Link>
           </li>
           <li>
             <NotificationsNoneIcon className="icon" />
